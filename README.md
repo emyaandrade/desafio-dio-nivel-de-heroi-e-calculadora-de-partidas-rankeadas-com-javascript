@@ -114,5 +114,48 @@ Esses desafios fazem parte da jornada de aprendizado da DIO. Eles têm como obje
 ✅ Ganhar confiança com estruturas condicionais e funções
 
 
+## 🕹 Desafio 03: Escrevendo as classes de um jogo
 
+### 🧰 Conceitos abordados
 
+✔️ Variáveis  
+✔️ Operadores  
+✔️ Funções  
+✔️ Estruturas de decisão  
+✔️ Laços de repetição  
+✔️ Classes e Objetos 
+
+---
+
+### 🎯 O que você deve fazer
+
+1️⃣ Crie uma classe genérica que represente um herói de uma aventura e que possua as seeguintes propriedades: 
+  - nome (heroName)
+  - idade (heroAge) 
+  - tipo (hero) - exemplo: guerreiro, mago, monge, ninja
+2️⃣ Além disso, deve ter um método chamado *atacar* que deve atender os seguintes requisitos:
+  - exibir a mensagem: "O *{hero}* atacou usando *{ataque}*
+  - o *{hero}* deve ser concatenando o tipo que está na propriedade da classe
+  - e o *{ataque}* deve seguir uma descrição diferente conforme o *{hero}*, seguindo a tabela abaixo
+
+---
+
+### 🧮 Tabela de Classificação Hero e Ataque
+
+| Hero         | Ataque           |
+|--------------|------------------|
+| Mago         | magia            |
+| Guerreiro    | espada           |
+| Monge        | artes marciais   |
+| Ninja        | shuriken         |
+
+---
+
+---
+
+### 💬 Exemplo de saída
+
+```bash
+"O {tipo} atacou usando {ataque}"
+```
+---
