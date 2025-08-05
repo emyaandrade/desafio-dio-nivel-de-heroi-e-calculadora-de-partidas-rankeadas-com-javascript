@@ -1,55 +1,121 @@
-# Desafio 01: Classificador de nível de Herói
 
-**O que deve ser utilizado**
+#  Desafios DIO: Classificador de Herói & Calculadora Rankeada
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisão
+Repositório com dois desafios simples para praticar **lógica de programação** em JavaScript. Você vai usar conceitos como variáveis, funções, estruturas condicionais e operadores.
 
-## Objetivo
-
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
-
-- Se XP for menor que 1.000 = Ferro
-- Se XP for entre 1.001 e 2.000 = Bronze
-- Se XP for entre 2.001 e 5.000 = Prata Ouro
-- Se XP for entre 5.001 e 8.000 = Platina Diamante
-- Se XP for entre 8.001 e 9.000 = Ascendente
-- Se XP for entre 9.001 e 10.000 = Imortal
-- Se XP for maior ou igual a 10.001 = Radiante
-
-## Saída
-
-Ao final deve ser exibida uma mensagem:
-"O Herói de nome **{nome}** está no nível **{nível}**
+---
+### 🚀 Tecnologias utilizadas
+![JavaScript](https://img.shields.io/badge/JavaScript-FBC02D?style=flat-square&logo=javascript&logoColor=black) | ![Node.js](https://img.shields.io/badge/Node.js-3C873A?style=flat-square&logo=nodedotjs&logoColor=white) |
+| ---------------------- | --------------------- |
 
 
+#### 📦 Dependências
+- [chalk](https://www.npmjs.com/package/chalk)
 
-# Desafio 02: Calculadora de partidas Rankeadas
+---
 
-**O Que deve ser utilizado**
+## 🛡️ Desafio 01: Classificador de Nível de Herói
 
-- Variáveis
-- Operadores
-- Laços de repetição
-- Estruturas de decisões
-- Funções
+### 🧰 Conceitos abordados
 
-## Objetivo:
+✔️ Variáveis  
+✔️ Operadores  
+✔️ Estruturas de decisão  
+✔️ (Opcional) Laços de repetição
 
-Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
-depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
+---
 
-- Se vitórias for menor do que 10 = Ferro
-- Se vitórias for entre 11 e 20 = Bronze
-- Se vitórias for entre 21 e 50 = Prata
-- Se vitórias for entre 51 e 80 = Ouro
-- Se vitórias for entre 81 e 90 = Diamante
-- Se vitórias for entre 91 e 100= Lendário
-- Se vitórias for maior ou igual a 101 = Imortal
+### 🎯 O que você deve fazer
 
-## Saída
+1️⃣ Crie uma variável com o **nome do herói**  
+2️⃣ Crie uma variável com a **quantidade de XP**  
+3️⃣ Use uma estrutura de decisão para verificar a faixa de XP  
+4️⃣ Exiba o nível do herói
 
-Ao final deve se exibir uma mensagem:
-"O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
+---
+
+### 🧮 Tabela de Classificação por XP
+
+| Faixa de XP           | Nível do Herói       |
+|------------------------|----------------------|
+| Menor que 1.000        | 🏅 Ferro              |
+| Entre 1.001 e 2.000    | 🥉 Bronze             |
+| Entre 2.001 e 5.000    | 🥈 Prata Ouro         |
+| Entre 5.001 e 8.000    | 💎 Platina Diamante   |
+| Entre 8.001 e 9.000    | 🚀 Ascendente         |
+| Entre 9.001 e 10.000   | 🔥 Imortal            |
+| 10.001 ou mais         | ✨ Radiante           |
+
+---
+
+### 💬 Exemplo de saída
+
+```bash
+O Herói de nome **{nome}** está no nível **{nível}**
+```
+
+---
+---
+---
+---
+---
+
+## 🎮 Desafio 02: Calculadora de Partidas Rankeadas
+
+### 🧰 Conceitos abordados
+
+✔️ Variáveis  
+✔️ Operadores  
+✔️ Funções  
+✔️ Estruturas de decisão  
+✔️ Laços de repetição (opcional)  
+
+---
+
+### 🎯 O que você deve fazer
+
+1️⃣ Crie uma função que receba dois parâmetros: 
+  - Quantidade de vitórias 🟢
+  - Quantidade de derrotas 🔴  
+2️⃣ Calcule o saldo de Partidas
+  ```bash 
+  let saldo = vitorias - derrotas
+  ``` 
+3️⃣ Use uma estrutura condicional para descobrir o nível do jogador com base nas vitórias.  
+
+---
+
+### 🧮 Tabela de Classificação por XP
+
+| Faixa de XP       | Nível do Herói       |
+|-------------------|----------------------|
+| Menor que 10      | 🏅  Ferro            |
+| 11 a 20           | 🥉 Bronze            |
+| 21 a 50           | 🥈 Prata             |
+| 51 a 80           | 🥇 Ouro              |
+| 81 a 90           | 💎 Diamante          |
+| 91 a 100          | 🔥 Lendário           |
+| >= 101            | ✨ Imortal           |
+
+---
+
+### 💬 Exemplo de saída
+
+```bash
+O Herói tem um saldo de **{vitorias}** está no nível **{nível}**
+```
+
+---
+
+## 💻 Objetivo dos desafios
+Esses desafios fazem parte da jornada de aprendizado da DIO. Eles têm como objetivo:
+
+✅ Praticar lógica e raciocínio computacional
+
+✅ Utilizar conceitos básicos de JavaScript
+
+✅ Ganhar confiança com estruturas condicionais e funções
+
+
+
+
