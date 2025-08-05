@@ -38,13 +38,14 @@ Repositório com dois desafios simples para praticar **lógica de programação*
 
 | Faixa de XP           | Nível do Herói       |
 |------------------------|----------------------|
-| Menor que 1.000        | 🏅 Ferro              |
-| Entre 1.001 e 2.000    | 🥉 Bronze             |
-| Entre 2.001 e 5.000    | 🥈 Prata Ouro         |
-| Entre 5.001 e 8.000    | 💎 Platina Diamante   |
-| Entre 8.001 e 9.000    | 🚀 Ascendente         |
-| Entre 9.001 e 10.000   | 🔥 Imortal            |
-| 10.001 ou mais         | ✨ Radiante           |
+| Menor que 1.000        | 🏅 Ferro             |
+| Entre 1.001 e 2.000    | 🥉 Bronze            |
+| Entre 2.001 e 5.000    | 🥈 Prata             |
+| Entre 5.001 e 7.000    | 🥇 Ouro              |
+| Entre 7.001 e 8.000    | 💎 Platina           |
+| Entre 8.001 e 9.000    | 🚀 Ascendente        |
+| Entre 9.001 e 10.000   | 🔥 Imortal           |
+| 10.001 ou mais         | ✨ Radiante          |
 
 ---
 
