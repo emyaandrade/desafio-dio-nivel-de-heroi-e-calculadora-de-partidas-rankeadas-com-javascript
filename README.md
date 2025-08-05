@@ -55,10 +55,6 @@ O Herói de nome **{nome}** está no nível **{nível}**
 ```
 
 ---
----
----
----
----
 
 ## 🎮 Desafio 02: Calculadora de Partidas Rankeadas
 
