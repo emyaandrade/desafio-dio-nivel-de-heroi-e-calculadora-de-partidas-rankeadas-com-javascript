@@ -159,3 +159,23 @@ Esses desafios fazem parte da jornada de aprendizado da DIO. Eles têm como obje
 "O {tipo} atacou usando {ataque}"
 ```
 ---
+## 🧩 Desafios: Aprimorando sua lógica de programação
+
+### 📚 Trilha de Aprendizado
+
+A ordem dos conceitos abordados nos desafios foi pensada para quem está começando na programação:
+
+1️⃣ **🔤 Manipulando variáveis**  
+Aprenda a armazenar e acessar informações com `let`, `const` e `var`.
+
+2️⃣ **➗ Dominando operadores**  
+Use operadores matemáticos (+, -, *, /) e lógicos (==, >, &&, etc.) para trabalhar com dados.
+
+3️⃣ **🔀 Explorando condicionais**  
+Tome decisões no código com `if`, `else if` e `else`.
+
+4️⃣ **🔁 Dominando funções**  
+Agrupe instruções em blocos reutilizáveis com `function`.
+
+5️⃣ **🔄 Laços de repetição**  
+Repita ações com `for`, `while` e outras estruturas de loop.
